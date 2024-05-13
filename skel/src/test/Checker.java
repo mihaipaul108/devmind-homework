@@ -31,9 +31,9 @@ public class Checker {
 
   public static void testCase(int testNumber) {
 
-    File inputFile = new File("./test/in/test" + String.valueOf(testNumber) + ".in");
-    String outputPath = "./test/out/test" + String.valueOf(testNumber) + ".out";
-    String referencePath = "./test/ref/test" + String.valueOf(testNumber) + ".ref";
+    File inputFile = new File("C:\\Users\\mihai\\OneDrive\\Desktop\\Homework-dev\\devmind-homework\\skel\\src\\test\\in\\test" + String.valueOf(testNumber) + ".in");
+    String outputPath = "C:\\Users\\mihai\\OneDrive\\Desktop\\Homework-dev\\devmind-homework\\skel\\src\\test\\out\\test" + String.valueOf(testNumber) + ".out";
+    String referencePath = "C:\\Users\\mihai\\OneDrive\\Desktop\\Homework-dev\\devmind-homework\\skel\\src\\test\\ref\\test" + String.valueOf(testNumber) + ".ref";
 
     try {
       BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath));
